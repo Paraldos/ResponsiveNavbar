@@ -2,10 +2,10 @@
 
 const MENUBTN = document.querySelector(".menu_btn");
 const NAVBAR = document.querySelector(".navbar");
-let nav_Menu = false;
 
+// opens and close navbar if screen is smaller then 850 px
 MENUBTN.addEventListener("click", () => {
-  if (nav_Menu) {
+  if (NAVBAR.classList.contains("open")) {
     NAVBAR.classList.remove("open");
   } else {
     NAVBAR.classList.add("open");

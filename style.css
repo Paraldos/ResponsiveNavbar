@@ -34,7 +34,6 @@ body {
   background-color: var(--color_bacbkground_light);
 }
 
-/* ============================ nav ============================ */
 nav {
   height: var(--nav_height);
   background-color: var(--color_bacbkground_dark);
@@ -130,9 +129,6 @@ nav.open .b3 {
 /* media query */
 @media (max-width: 850px) {
   .menu_btn {
-    display: flex;
-  }
-  .toggle_button {
     display: flex;
   }
 
